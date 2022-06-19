@@ -1,0 +1,29 @@
+.shell-container {
+  background-color: rgb(168, 227, 245);
+  padding: 20px;
+  &__state {
+    padding: 20px;
+  }
+  &__nav-links {
+    background-color: #9fdaec;
+    padding: 15px;
+    display: flex;
+    gap: 40px;
+    font-family: monospace;
+    font-size: 16px;
+    border-radius: 6px;
+    a {
+        padding: 5px;
+        border-radius: 4px;
+        text-decoration: none;
+    }
+    a.active {
+        background: darkblue;
+        color: white;
+    }
+  }
+ 
+  .shell__content {
+    margin-top: 40px;
+  }
+}
